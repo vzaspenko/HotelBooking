@@ -1,0 +1,1 @@
+We create a Windows Forms app for booking hotels in Russia. The application allows users to select and book hotel rooms .This app includes a database to which users will address. Our database includes tables: category, hotel, location, persons, reservation and rooms. This database is stored in the program mysql workbench.
