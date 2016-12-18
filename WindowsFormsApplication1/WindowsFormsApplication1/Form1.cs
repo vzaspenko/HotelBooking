@@ -54,6 +54,16 @@ namespace WindowsFormsApplication1
              command.ExecuteNonQuery();
 
              conn.Close();*/
+            if(Convert.ToInt32(textBox2.Text.Length)>7)
+            {
+                MessageBox.Show("Диапазон превышает допустимые значения");
+                return;
+            }
+            if (Convert.ToInt32(textBox1.Text.Length) > 7)
+            {
+                MessageBox.Show("Диапазон превышает допустимые значения");
+                return;
+            }
             if (comboBox1.SelectedIndex == -1)
             {
                 MessageBox.Show("Город не выбран");
@@ -76,12 +86,15 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Максимальный диапазон цены не выбран");
                 textBox2.Focus();
                 return;
-
+            }
+            if(Convert.ToInt32(textBox2.Text)< Convert.ToInt32(textBox1.Text))
+            {
+                MessageBox.Show("Неправильно выбран диапазон");
+                return;
             }
             if (dateTimePicker1.Value < DateTime.Now)
             {
                 MessageBox.Show("Некорректная дата");
-
                 return;
             }
            

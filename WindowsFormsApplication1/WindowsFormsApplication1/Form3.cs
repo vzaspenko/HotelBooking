@@ -41,13 +41,13 @@ namespace WindowsFormsApplication1
                 textBox1.Focus();
                 return;
             }
-            if (textBox2.Text == null || textBox1.Text == "")
+            if (textBox2.Text == null || textBox2.Text == "")
             {
                 MessageBox.Show("Телефон не введен");
                 textBox2.Focus();
                 return;
             }
-            if (textBox3.Text == null || textBox1.Text == "")
+            if (textBox3.Text == null || textBox3.Text == "")
             {
                 MessageBox.Show("Серия и номер паспорта не введены");
                 textBox3.Focus();

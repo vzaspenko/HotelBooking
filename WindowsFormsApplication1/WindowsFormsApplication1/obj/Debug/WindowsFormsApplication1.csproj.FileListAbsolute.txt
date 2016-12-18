@@ -9,3 +9,6 @@ C:\Users\тамара\Pictures\hb\WindowsFormsApplication1\WindowsFormsApplicati
 C:\Users\тамара\Pictures\hb\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\тамара\Pictures\hb\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\тамара\Pictures\hb\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Яся\Source\Repos\HotelBooking\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Яся\Source\Repos\HotelBooking\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Яся\Source\Repos\HotelBooking\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
